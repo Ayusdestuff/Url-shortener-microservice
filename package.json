@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "freecodecamp url shortener microservice",
+  "main": "app.js",
+  "engines": {
+    "node": "7.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexyblazy/url-shortener-microservice.git"
+  },
+  "author": "lexy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexyblazy/url-shortener-microservice/issues"
+  },
+  "homepage": "https://github.com/lexyblazy/url-shortener-microservice#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.5"
+  }
+}
